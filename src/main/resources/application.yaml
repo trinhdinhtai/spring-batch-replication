@@ -5,3 +5,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/replication
     username: postgres
     password: postgres
+
+replica:
+  job:
+    name: batch-replica
