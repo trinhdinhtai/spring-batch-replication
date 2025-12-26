@@ -12,6 +12,7 @@ spring:
     basename: i18n/messages,i18n/mailMessages
     encoding: UTF-8
 replica:
+  systemName: tesfsfsf
   job:
     name: batch-replica
 

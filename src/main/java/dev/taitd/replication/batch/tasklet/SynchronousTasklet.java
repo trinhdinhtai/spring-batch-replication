@@ -28,7 +28,7 @@ public class SynchronousTasklet implements Tasklet {
     if (!StringUtils.hasText(systemName)) {
       throw new GenericException(
           LogMsg.REPLICA_E0009,
-          "System name must be configured"
+          "Missing required config: replica.systemName"
       );
     }
     return RepeatStatus.FINISHED;
