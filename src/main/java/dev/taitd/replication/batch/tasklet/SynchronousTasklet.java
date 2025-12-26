@@ -1,7 +1,7 @@
 package dev.taitd.replication.batch.tasklet;
 
 import dev.taitd.replication.config.ReplicaProperties;
-import dev.taitd.replication.exeption.GenericException;
+import dev.taitd.replication.exception.GenericException;
 import dev.taitd.replication.util.LogMsg;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

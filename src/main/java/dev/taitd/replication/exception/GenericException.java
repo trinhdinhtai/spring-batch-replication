@@ -1,4 +1,4 @@
-package dev.taitd.replication.exeption;
+package dev.taitd.replication.exception;
 
 import lombok.Getter;
 
