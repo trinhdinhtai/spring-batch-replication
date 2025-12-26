@@ -24,7 +24,6 @@ public class SynchronousTasklet implements Tasklet {
   public @Nullable RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext)
       throws Exception {
     String systemName = replicaProperties.getSystemName();
-    log.info("System name: {}", systemName);
 
     if (StringUtils.hasText(systemName)) {
       throw new GenericException(

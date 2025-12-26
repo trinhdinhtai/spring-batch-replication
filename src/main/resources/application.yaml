@@ -1,6 +1,9 @@
 spring:
   application:
     name: replication
+  logging:
+    level:
+      root: info
   datasource:
     url: jdbc:postgresql://localhost:5432/replication
     username: postgres
@@ -9,3 +12,6 @@ spring:
 replica:
   job:
     name: batch-replica
+
+i18n:
+  language: en
