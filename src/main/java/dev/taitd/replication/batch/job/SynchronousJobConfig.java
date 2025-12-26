@@ -1,7 +1,7 @@
-package dev.taitd.replication.job;
+package dev.taitd.replication.batch.job;
 
-import dev.taitd.replication.common.JobExecutionLoggingListener;
-import dev.taitd.replication.tasklet.SynchronousTasklet;
+import dev.taitd.replication.batch.listener.JobExecutionLoggingListener;
+import dev.taitd.replication.batch.tasklet.SynchronousTasklet;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.job.Job;
 import org.springframework.batch.core.job.builder.FlowBuilder;

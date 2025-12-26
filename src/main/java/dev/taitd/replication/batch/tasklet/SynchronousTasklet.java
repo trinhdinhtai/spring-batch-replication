@@ -1,4 +1,4 @@
-package dev.taitd.replication.tasklet;
+package dev.taitd.replication.batch.tasklet;
 
 import dev.taitd.replication.config.ReplicaProperties;
 import dev.taitd.replication.exeption.GenericException;

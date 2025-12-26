@@ -1,4 +1,4 @@
-package dev.taitd.replication.common;
+package dev.taitd.replication.batch.listener;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
