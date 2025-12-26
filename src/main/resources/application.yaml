@@ -1,3 +1,7 @@
 spring:
   application:
     name: replication
+  datasource:
+    url: jdbc:postgresql://localhost:5432/replication
+    username: postgres
+    password: postgres
