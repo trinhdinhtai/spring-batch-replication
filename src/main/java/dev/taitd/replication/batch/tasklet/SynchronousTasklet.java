@@ -25,7 +25,7 @@ public class SynchronousTasklet implements Tasklet {
       throws Exception {
     String systemName = replicaProperties.getSystemName();
 
-    if (StringUtils.hasText(systemName)) {
+    if (!StringUtils.hasText(systemName)) {
       throw new GenericException(
           LogMsg.REPLICA_E0009,
           "System name must be configured"

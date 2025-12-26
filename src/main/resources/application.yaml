@@ -8,7 +8,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/replication
     username: postgres
     password: postgres
-
+  messages:
+    basename: i18n/messages,i18n/mailMessages
+    encoding: UTF-8
 replica:
   job:
     name: batch-replica
